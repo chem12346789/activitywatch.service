@@ -8,7 +8,7 @@ cd tmp
 # == Install aw-awatcher ==
 # Download (deb package for Debian/Ubuntu)
 wget https://github.com/2e3s/awatcher/releases/download/v0.3.3/aw-awatcher_0.3.3-1_amd64.deb
-sudo dpkg -i aw-awatcher_amd64.deb
+sudo dpkg -i aw-awatcher_0.3.3-1_amd64.deb
 sudo apt-get install -f
 # Verify
 which aw-awatcher
